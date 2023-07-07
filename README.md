@@ -62,7 +62,7 @@ circle.print_shape()
 # Create a triangle shape
 triangle = Triangle(4, '+')
 triangle.print_shape()
-
+'''python
 # Output 
 # # # # #
 # # # # #
