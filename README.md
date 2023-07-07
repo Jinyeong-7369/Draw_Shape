@@ -11,7 +11,7 @@ The `Shape` class is the base class for all shapes. It provides the common funct
 #### Methods
 
 - `__init__(self, size: int, symbol)`: Initializes a shape with the specified size and symbol.
-- `set_size(self, size: int) -> None`: Sets the size of the shape.
+- `set_size(self, size: int) -> None`: Sets the size of the shape. The meaning of size is different(Circle : diameter, Square : width and height, Triangle : height)
 - `set_symbol(self, symbol) -> None`: Sets the symbol used to represent the shape.
 - `print_shape(self) -> None`: Prints the shape pattern.
 
